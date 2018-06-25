@@ -1,0 +1,93 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font: 14px "Open Sans", sans-serif;
+  text-align: center;
+  color: black;
+}
+
+h1,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: hotpink;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-box {
+  position: absolute;
+  height: auto;
+  top: 0px;
+  left: 0px;
+  z-index: 60;
+  background: #0996b0;
+  background: -webkit-linear-gradient(-99deg, #5496b0, #52dcac);
+  padding: 20px 10px 0 20px;
+  text-align: left;
+  width: 320px;
+  opacity: 0.8;
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.map-div {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-items {
+  font: .8em "Montserrat", sans-serif;
+  background: lime;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 17px;
+}
+
+#searchbar {
+  width:250px;
+  max-height:500px;
+  border:solid 2px #000;
+  overflow:hidden;
+}
+
+.main-nav {
+  color:#000;
+  text-align:left;
+  font-size:22px;
+}
+
+li {
+  cursor:pointer;
+  color:#000;
+  margin:.2em 0;
+}
+
+li:hover {
+  color:white;
+}
+
+#map {
+  width:74%;
+  height:100vh;
+  top: 0px;
+  right: -330px;
+}
